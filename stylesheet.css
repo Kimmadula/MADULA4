@@ -148,9 +148,15 @@ nav a:hover {
 }
 .container .flex .content .p1 {
 	color: #00BFFF
+	position: absolute;
+	top: 40%;
+	left: 10px;
 }
 .container .flex .content .p2 {
 	color: #32CD32
+	position: absolute;
+	top: 40%;
+	left: 10px;
 }
 p {
 	font-size: 100%;
