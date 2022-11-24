@@ -1,12 +1,15 @@
-h1 {
-	text-align:center;
+.title h1 {
 	font-size:60px;
 	color: Darkorange;
-	position: absolute;
-	top: 40%;
-	left:50%;
-	transform: translate(-50%,-50%);
 	
+	
+}
+
+.title {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
 }
 h2 {
 	font-size:30px;
