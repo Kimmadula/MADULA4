@@ -31,29 +31,24 @@ body {
 	background-color: Darkorange;
 	padding: 13px 25px;
 }
-.link {
-	max-width: 1200px;
-	margin: auto;
+nav {
+	display: flex;
+	flex-wrap: wrap;
 }
-ul {
-	text-align: right;
-	list-style-type: none;
-	margin-bottom: 50px;
-}
-ul li {
-	display: inline-block;
-}
-ul li a{
+nav a {
+	margin: 0;
 	text-decoration: none;
+	padding: 15px 25px;
+	text-align: center;
 	color: silver;
-	padding: 10px 20px;
-	transition: 0.6s ease;
-	font-size: 25px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 23px;
+	border:2px ;
 }
-ul li a:hover{
-	color: Black;
-	background-color: darkorange; 
-	border-radius: 8px;
+nav a:hover {
+	color: black;
+	border-radius: 20px;
+	background-color: darkorange;
 }
 .img {
 	text-align: center;
