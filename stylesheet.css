@@ -142,6 +142,10 @@ nav a:hover {
 	color: #DC143C;
 	font-size: 25px;
 }
+.container .flex .content p{
+	color: #DC143C;
+	font-size: 23px;
+}
 .container .flex .content .p1 {
 	color: #00BFFF
 }
