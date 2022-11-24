@@ -4,7 +4,7 @@
 }
 .title {
 	top: 50%;
-	left: 25%;
+	left: 30%;
 	transform: translate(-50%,-50%);
 	position: absolute;
 }
@@ -148,13 +148,11 @@ nav a:hover {
 }
 .container .flex .content .p1 {
 	color: #00BFFF
-	position: absolute;
 	top: 40%;
 	left: 50px;
 }
 .container .flex .content .p2 {
 	color: #32CD32
-	position: absolute;
 	top: 40%;
 	left: 50px;
 }
