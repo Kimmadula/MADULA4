@@ -31,23 +31,29 @@ body {
 	background-color: Darkorange;
 	padding: 13px 25px;
 }
-
-nav {
-	display: flex;
-	flex-wrap: wrap;
+.link {
+	max-width: 1200px;
+	margin: auto;
 }
-nav a {
-	margin: 0;
+ul {
+	text-align: right;
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
 	text-decoration: none;
-	padding: 15px 25px;
-	text-align: center;
 	color: silver;
-	font-family: 'Rubik', sans-serif;
-	font-size: 23px;
-	
+	padding: 10px 20px;
+	transition: 0.6s ease;
+	font-size: 25px;
 }
-nav a:hover {
-	color: darkorange;
+ul li a:hover{
+	color: Black;
+	background-color: darkorange; 
+	border-radius: 8px;
 }
 .img {
 	text-align: center;
