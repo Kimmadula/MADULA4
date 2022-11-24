@@ -44,6 +44,7 @@ nav a {
 	font-family: 'Rubik', sans-serif;
 	font-size: 23px;
 	border:2px ;
+	transition: 0.5s ease;
 }
 nav a:hover {
 	color: black;
