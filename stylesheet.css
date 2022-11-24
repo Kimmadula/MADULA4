@@ -65,10 +65,21 @@ p {
 	font-size: 100%;
 	text-align: center;
 }
-#p1 {
-	font-size: 200%;
-	color: Darkorange;
-	text-align: right;
+h3 {
+	color: white;
+	font-size: 50px;
+	text-transform: capitalize;
+	text-align: center;
+}
+.about-text p{
+	color: orange;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	text-align: center;
+	border: 2px;
+	margin: 49px;
+	padding: 13px 25px;
 }
 #pic {
 	margin-left: 9%;
