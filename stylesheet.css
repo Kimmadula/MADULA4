@@ -58,14 +58,91 @@ ul li a:hover{
 .img {
 	text-align: center;
 }
-.box {
-	font-size: 140%;
-	color:black;
+/*------------------------------------------------------------CONTACT PAGE------------------------------------------------------*/
+.container {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin:240px auto;
+}
+.container .flex{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: black;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.container .flex .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #708090;
+	transition: 0.5s;
+	z-index: 1;
+}
+.container .flex:hover .icon{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+}
+.container .flex .icon .fa-solid{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	color: #B22222;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+}
+.container .flex .icon .fa-sharp{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	color: #32CD32;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+}
+.container .flex .icon .fa-brands{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	color: #00BFFF;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+}
+.container .flex .content {
+	position: absolute;
+	top: 40%;
+	left: 5px;
+	height: calc(100% - 100px);
 	text-align: center;
-	border: 2px solid Darkorange;
-	margin: 50px;
-	background-color: Darkorange;
-	padding: 13px 25px;
+	padding: 70px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.container .flex:hover .content {
+	top: 30px;
+}
+.container .flex .content h4{
+	color: #DC143C;
+	font-size: 25px;
+}
+.container .flex .content p{
+	color: #DC143C;
+	font-size: 23px;
+}
+.container .flex .content .p1 {
+	color: #00BFFF
+}
+.container .flex .content .p2 {
+	color: #32CD32
 }
 p {
 	font-size: 100%;
