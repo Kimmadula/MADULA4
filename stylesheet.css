@@ -31,22 +31,6 @@ body {
 	background-color: Darkorange;
 	padding: 13px 25px;
 }
-nav {
-	display: flex;
-	flex-wrap: wrap;
-}
-nav a {
-	margin: 0;
-	text-decoration: none;
-	padding: 15px 25px;
-	text-align: center;
-	font-size: 23px;
-	border:2px ;
-}
-nav a:hover {
-	color: black;
-	border-radius: 20px;
-}
 .img {
 	text-align: center;
 }
