@@ -34,18 +34,6 @@ body {
 .img {
 	text-align: center;
 }
-.zoom {
-  padding: 50px;
-  transition: transform .1s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  transition: 0.5s ease;
-}
-
-.zoom:hover {
-  transform: scale(1.5);
-}
 /*------------------------------------------------------------CONTACT PAGE------------------------------------------------------*/
 .container {
 	position: relative;
