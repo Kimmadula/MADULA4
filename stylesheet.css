@@ -130,13 +130,12 @@ h3 {
 	text-transform: capitalize;
 	text-align: center;
 }
-.All p{
+.about{
 	color: orange;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
 	text-align: center;
-	border: 2px;
 	margin: 49px;
 	padding: 13px 25px;
 	font-family: 'Heebo', sans-serif;
