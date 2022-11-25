@@ -130,7 +130,16 @@ h3 {
 	text-transform: capitalize;
 	text-align: center;
 }
-
+.ab{
+	font-family: 'Heebo', sans-serif;
+	color: orange;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	text-align: center;
+	border: 2px;
+	margin: 49px;
+	padding: 13px 25px;
 .carousel {
 	width: 400px;
 	height: 360px;
