@@ -40,16 +40,12 @@ nav a {
 	text-decoration: none;
 	padding: 15px 25px;
 	text-align: center;
-	color: silver;
-	font-family: 'Rubik', sans-serif;
 	font-size: 23px;
 	border:2px ;
-	transition: 0.5s ease;
 }
 nav a:hover {
 	color: black;
 	border-radius: 20px;
-	background-color: darkorange;
 }
 .img {
 	text-align: center;
