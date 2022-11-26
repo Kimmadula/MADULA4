@@ -1,6 +1,7 @@
 .title h1 {
 	font-size:100px;
-	color: Darkorange;	
+	color: Darkorange;
+	font-family: 'Heebo', sans-serif;
 }
 .title {
 	top: 50%;
