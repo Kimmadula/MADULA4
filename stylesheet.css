@@ -142,6 +142,13 @@ h3 {
 	margin: 49px;
 	padding: 13px 25px;
 }
+.carousel {
+	width:400px; 
+	height:400px;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
 .nav-item  {
 	font-size: 25px;
 }
